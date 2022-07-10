@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# React Hangman game using [Create react app](https://github.com/facebook/create-react-app)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
+| Sections | Links | 
+| ------------- |:-------------:|
+| Description | [Click Me](#description) |
+| Installation | [Click Me](#installation) |   
+| Usage | [Click Me](#usage) |
+| Get help | [Click Me](#get-help)
+| Contribution | [Click Me](#contribution) |
 
-## Available Scripts
+## Discription:
+This is a web application that I have created that acts as a fully functioning hangman game.
 
-In the project directory, you can run:
+## Installation:
+In order to use this application you have to ensure that Node.js runtime is installed on your machine. If you don't have it installed aleady you can install it form [here](https://nodejs.org/en/download/). Once Node.js runtime is installed ,you can download all the following files to a directory of your choice. Once all the files have been dowloaded you can open the directory within an IDE of your choice. Open a new terminal within your IDE and navigate to the directory you have downloaded the files to. Once in the directory, run `npm install` in order to download and install necessary files like node_modules. The download may take some time. After everything has been downloaded you can move on to the next step below.
 
-### `npm start`
+## Usage: 
+After everything has been downloaded you can now run the `npm start` command on your computer. A new window should open up by itself within your browser if not, open your browser and go to http://localhost:3000. You should now be able to play the game! Any changes made to files should automatically update your view within the browser after a save.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Play now:
+You can play the game right now by clicking on [this link](https://morning-springs-53131.herokuapp.com) as I have deployed this web app on [Heroku](https://dashboard.heroku.com)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Get help
+Head over to [StackOverflow](https://stackoverflow.com) if you get stuck with anything. There is a ton of information there regarding React. If you need more help on how to play the game there is a Help button available explaining the rules of the game to you.
 
-### `npm run build`
+## Enjoy
+There are a plethora of words to guess in this game. I hope you have fun and enjoy!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contribution
+I have been the sole contributor of this project.

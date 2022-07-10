@@ -1,8 +1,15 @@
 
+//Imported the following components
 import HangmanController from './components/HangmanController';
 import Help from './components/Help';
+
+//Imported the following in order to style react-bootstrap components properly
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+//App component
 function App() {
+
+  //Returns the following
   return (
     <div className='gridContainer'>
       <div className='content'>

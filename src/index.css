@@ -1,3 +1,6 @@
+/* Styling for the all components is done here */
+
+/* Imported the following font from Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,300;8..144,400;8..144,500&family=Source+Sans+Pro:wght@400;600;700&display=swap');
 
 body {
@@ -12,6 +15,7 @@ code {
     monospace;
 }
 
+/* The following styles all list elements */
 ul{
   display: flex;
   flex-wrap: wrap;
@@ -28,6 +32,7 @@ ul li h1{
   font-size: 300%;
 }
 
+/* Created a grid layout */
 .gridContainer{
   background-color: #3B357C;
   height: 100vh;
@@ -42,6 +47,7 @@ ul li h1{
   ". . . ";
 }
 
+/* Styles the content class */
 .content{
   background-color: #FFFFFF;
   grid-area: content;
@@ -50,7 +56,7 @@ ul li h1{
   width: 100%;
 }
 
-
+/* Styles all components with the following class */
 .flexContainer{
   display: flex;
   justify-content: center;
@@ -59,12 +65,14 @@ ul li h1{
   height: 100%;
 }
 
+/* Styles all components with the following class */
 .wordList{
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+/* Styles all components with the following class */
 .buttons{
   display: flex;
   flex-wrap: wrap;
@@ -73,11 +81,13 @@ ul li h1{
   padding: 0;
 }
 
+/* Styles all components with the following class */
 .keyboard{
   height: 50%;
   width: 50%;
 }
 
+/* Styles all the buttons within the following class */
 .keyboard button{
   font-size: 150%;
   font-weight: bold;
@@ -90,30 +100,36 @@ ul li h1{
   background-color: #DBD46A;
 }
 
+/* Styles all the buttons that are set to disabled within the following class */
 .keyboard button:disabled{
   color:#dbd46a81;
   background-color: #40398e7c;
 }
 
+/* Styles all components with the following class */
 .help{
   height: auto;
 }
 
+/* Styles all components with the following class */
 .images{
   height: 25%;
   width: 25%;
 }
 
+/* Styles all images within the following class */
 .images img{
   height: 100%;
   width: 100%;
   border-radius: 36px;
 }
 
+/* Styles all components with the following class */
 .resetBtn{
   margin: 20px 0;
 }
 
+/* Styles all buttons within the following class */
 .resetBtn button{
   font-size: 120%;
   border: none;
@@ -124,15 +140,18 @@ ul li h1{
   font-weight: 700;
 }
 
+/* Styles all buttons within the following class and adds a hover effect */
 .resetBtn button:hover{
   color:#3B357C;
   background-color: #DBD46A;
 }
 
+/* Styles all components with the following class */
 .helpBtn{
   padding-bottom: 20px;
 }
 
+/* Styles all buttons within the following class */
 .helpBtn button{
   font-size: 120%;
   border: none;
@@ -143,19 +162,23 @@ ul li h1{
   font-weight: 700;
 }
 
+/* Styles all buttons within the following class and adds a hover effect */
 .helpBtn button:hover{
   color:#3B357C;
   background-color: #DBD46A;
 }
 
+/* Styles all components with the following class */
 .livesLeft{
   padding-top: 10px;
 }
 
+/* Styles all span elements within the following class */
 .livesLeft span{
   font-size: 120%;
 }
 
+/* Styles all components with the following class */
 .gameTitle{
   font-size: 300%;
   font-weight: 700;
@@ -163,52 +186,64 @@ ul li h1{
   padding-top: 10px;
 }
 
+/* Styles all components with the following id */
 #popover-contained{
   max-width: 600px;
   font-family: 'Source Sans Pro', sans-serif;
   border: none;
 }
 
+/* Styles all components that have the ".popover-header" class within the component with the following id */
 #popover-contained .popover-header{
   background-color: #DBD46A;
   color:#3B357C;
 }
 
+/* Styles all h1 elements within the component with the following id */
 #popover-contained h1{
   font-size: 200%;
   font-weight: bold;
 }
 
+/* Styles all components that have the ".popover-body" class within the component with the following id */
 #popover-contained .popover-body{
   font-size: 150%;
   background-color: #3B357C;
   color:#DBD46A;
 }
 
+/* Styles all components with the following class */
 .modal-header{
   background-color: #DBD46A;
   color:#3B357C;
 }
 
+/* Styles all components with the following class */
 .modal-body{
   background-color: #3B357C;
   color:#DBD46A;
 }
 
+/* Styles all p elements within the following class */
 .modal-body p{
   font-size: 120%;
 }
 
+/* Styles all components with the following class */
 .modal-footer{
   background-color: #3B357C;
   color:#DBD46A;
 }
+
+/* Styles all button elements within the following class */
 .modal-footer button{
   background-color: #DBD46A;
   color:#3B357C;
   border: none;
   font-weight: bold;
 }
+
+/* Styles all components with the following class and adds hover effect */
 .modal-footer button:hover {
   background-color: #3B357C;
   color:#DBD46A;

@@ -1,6 +1,10 @@
+//Imported the following from react-bootsrap
 import {Popover, OverlayTrigger} from 'react-bootstrap';
+
+//Created a help component
 export default function Help (){
 
+    //Created a popover element with information relating to the rules of the game
     const popover = (
 
           <Popover id="popover-contained">
@@ -15,6 +19,9 @@ export default function Help (){
     );
     
     return (
+        
+        //Returns an OverlayTrigger component with a button
+        //When button is presses the popover component will display
         <div className='flexContainer helpBtn'>
           <OverlayTrigger trigger="click" placement="top" overlay={popover}>
               <div><button>Help</button></div>

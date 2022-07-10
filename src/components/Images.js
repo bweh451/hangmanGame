@@ -1,3 +1,4 @@
+//Imported all the images
 import Img0 from '../assets/images/state1.GIF';
 import Img1 from '../assets/images/state2.GIF';
 import Img2 from '../assets/images/state3.GIF';
@@ -10,10 +11,17 @@ import Img8 from '../assets/images/state9.GIF';
 import Img9 from '../assets/images/state10.GIF';
 import Img10 from '../assets/images/state11.GIF';
 
+//Created a component that renders the images
 export default function Images (props){
-    let image = "";
-    let imgNum = props.stateNum;
 
+    //Created an empty varaible for use below
+    let image = "";
+
+    //Created the following variable which is related to the state's failedAttempts prop (passed in as a prop to this component)
+    let imgNum = props.failedAttempts;
+
+    //Switch statement that switches through the variable created above.
+    //Depending on the case it will set the relevant image to the image variable created above
     switch(imgNum){
         
         case 1: 
@@ -62,6 +70,7 @@ export default function Images (props){
     }
 
 
+    //Returns the image
     return (
         <div className="flexContainer images">
             <img src={image}></img>
