@@ -5,7 +5,6 @@ import Keyboard from './Keyboard';
 import Lives from './Lives';
 import Images from './Images';
 import Result from './Result';
-import Dictionary from './dictionary.txt';
 
 
 //Created a HangmanController class component.
@@ -29,7 +28,7 @@ export default class HangmanController extends Component {
 
     //Checks if this component mounted if so then it will fetch a random word from the dictionary
     componentDidMount = () => {
-        fetch(Dictionary)
+        fetch('./dictionary.txt')
         
         //Gets text from the dictionary
         .then(res => res.text())
