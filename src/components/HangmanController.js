@@ -5,7 +5,7 @@ import Keyboard from './Keyboard';
 import Lives from './Lives';
 import Images from './Images';
 import Result from './Result';
-import Dictionary from '../assets/dictionary.txt';
+import Dictionary from '../assets/dictionary/dictionary.txt';
 
 
 //Created a HangmanController class component.
